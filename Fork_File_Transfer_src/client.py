@@ -8,7 +8,7 @@ from create import outBandCreate
 
 
 switchesVarDefaults = (
-    (('-s', '--server'), 'server', "127.0.0.1:50001"),    # default 127.0.0.1:50001  -s --sever give a server
+    (('-s', '--server'), 'server', "127.0.0.1:50003"),    # default 127.0.0.1:50001  -s --sever give a server
     (('-?', '--usage'), "usage", False), # boolean (set if present)    -? and --usage prints out how to use this program
     )
 

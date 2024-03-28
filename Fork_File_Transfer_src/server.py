@@ -8,7 +8,7 @@ from extract import outBandExtract
 
 
 switchesVarDefaults = (
-    (('-l', '--listenPort') ,'listenPort', 50001),
+    (('-l', '--listenPort') ,'listenPort', 50003),
     (('-?', '--usage'), "usage", False), # boolean (set if present)
     )
 

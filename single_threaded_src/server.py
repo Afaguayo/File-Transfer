@@ -43,7 +43,8 @@ while True:
         sendMsg = b"\nEchoing "
         sendMsg += b"\nFile name: " + fileInfo['name'].encode() 
         sendMsg += b"\nFile size: " + str(fileInfo['size']).encode() 
-        sendMsg += b"\nFile contents: " + fileInfo['contents'].encode()
+        sendMsg += b"\nFile con
+        ents: " + fileInfo['contents'].encode()
 
         data = "\nFile name: " + fileInfo['name'] + "\nFile size: " + str(fileInfo['size']) +  "\nFile contents: " + fileInfo['contents']
         print("Received \n'%s', \nsending \n'%s'" % (data, sendMsg))
